@@ -40,5 +40,22 @@ set default 'unknown';
 
 create table contacts(
     name varchar(50),
-    mob varchar(15) unique check(length(mob)>=10)
+    mob varchar(15) unique check(length(mob)>=10) -- as of now crud , clauses , agregate and string functions
 );
+
+alter talbe person
+add column mob varchar(15) check (length(mob)>=10);
+
+--NAMED CONSTRAINTS 
+create table contacts(
+    name varchar(50),
+    mob varchar(15) unique 
+    constraint mob_no_less_than_10digits check(length(mob)>=10)
+);
+
+--CASE
+select fname,salary,
+case WHEN salary>=50000 then 'high'
+else 'low'
+ese as salary_category
+from employee;
