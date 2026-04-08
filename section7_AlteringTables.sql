@@ -55,7 +55,7 @@ create table contacts(
 
 --CASE
 select fname,salary,
-case WHEN salary>=50000 then 'high'
+ case WHEN salary>=50000 then 'high'
 else 'low'
-ese as salary_category
+ as salary_category
 from employee;
