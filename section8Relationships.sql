@@ -1,6 +1,6 @@
 --RELATIONSHIPS 
 
---Real world databases have many databases like for employee
+--Real world databases have many tables like for employee
 -- you need to store salary attendance etc etc 
 
 --Type 
@@ -143,7 +143,7 @@ VALUES
 (3, 3, '2024-03-25'); -- Alex enrolled in Chemistry
 
 -- now displaying 
-
+-- inner join can also be wriiten simply as join
 select * from enrollment e
 join students s on e.s_id = s.s_id
 join courses c on c.c_id = e.c_id;
