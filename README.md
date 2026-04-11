@@ -82,12 +82,79 @@ Each section is stored as a separate file in VS Code with queries and notes.
 
 ---
 
+### 🔴 Section 8: Relationships & Joins
+
+* Types of relationships:
+
+  * One-to-One
+  * One-to-Many
+  * Many-to-Many
+* Concept of Foreign Key
+* Database normalization basics
+* Creating related tables (customers, orders)
+* JOIN operations:
+
+  * CROSS JOIN
+  * INNER JOIN
+  * LEFT JOIN
+  * RIGHT JOIN
+* Real-world examples:
+
+  * Customer-Orders relationship
+  * Student-Course enrollment system
+
+---
+
+### 🟣 Section 9: Advanced Relationships & Views
+
+* Designing real-world schema:
+
+  * Customers, Orders, Products, Order_Items
+* One-to-Many and Many-to-Many combined
+* Multi-table JOIN queries
+* Calculating derived values (billing system)
+* Creating and using VIEWS
+* Benefits of views (query reuse, readability)
+
+---
+
+### 🟢 Section 10: Stored Routines, CTE & Window Functions
+
+* Stored Procedures
+
+  * Creating procedures
+  * Parameters and execution (CALL)
+* User Defined Functions (UDFs)
+
+  * Returning values
+  * Usage in SELECT
+* Difference between Functions vs Procedures
+* Window Functions:
+
+  * OVER() clause
+  * PARTITION BY
+  * ORDER BY
+  * ROW_NUMBER(), RANK(), DENSE_RANK()
+  * LAG(), LEAD()
+  * Running totals
+* Common Table Expressions (CTE):
+
+  * Basic CTE
+  * Multiple CTEs
+  * Recursive CTE
+* Use cases:
+
+  * Ranking
+  * Analytics queries
+  * Hierarchical data
+
+---
+
 ## 🛠️ Tools Used
 
 * PostgreSQL (psql)
 * VS Code
 
----
 
 
 
